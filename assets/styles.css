@@ -22,7 +22,7 @@ section h2 {
 main {
     max-width: 1600;
     width: auto;
-    padding: 0px 160px;
+    padding: 0px 160px 80px;
     background: rgb(245, 245, 245);
 }
 
@@ -215,26 +215,6 @@ nav {
     background-position: 24px 0 24px 0px 0px;
 }
 
-
-
-
-
-/* footer Styles */
-footer {
-    max-width: 1600;
-    width: auto;
-    padding: 0px 160px;
-    background: rgb(245, 245, 245);
-}
-
-footer>div>ul>li {
-    list-style: none;
-    display: inline;
-
-}
-
-
-
 /* Recent News Styles*/
 .recent-news-card-container {
     display: flex;
@@ -247,16 +227,18 @@ footer>div>ul>li {
     margin: 24px 0;
 }
 
-.news-title{
+.news-title {
     font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     color: rgb(14, 14, 14);
     margin-bottom: 16px;
 }
-.news-sources{
-margin-bottom: 12px;
+
+.news-sources {
+    margin-bottom: 12px;
 }
+
 .recent-news-card-container p {
     font-family: Fira Sans;
     font-size: 16px;
@@ -276,4 +258,80 @@ margin-bottom: 12px;
     margin: 16px 0;
     padding: 11px 20px;
     margin: 24px 0px;
+}
+
+/* Donate section Styles */
+
+
+
+/* Subscribe Section Styles*/
+.subscribe-container {
+    text-align: center;
+    padding: 80px 100px;
+    border-radius: 24px;
+    background-color: #c6e4d6;
+}
+
+.subscribe h2 {
+    margin-bottom: 0px;
+}
+
+.subscribe p {
+        margin: 16px;
+}
+
+.subscribe-form input {
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+    width: 600px;
+    padding: 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: -3px;
+    background: rgb(255, 255, 255);
+    border: 0px;
+}
+
+.subscribe-form button {
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    padding: 17px 40px;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -3px;
+    background: rgb(0, 106, 80);
+    border: 0px;
+
+}
+
+
+/* footer Styles */
+.footer {
+    max-width: 1600;
+    width: auto;
+    padding: 50px 160px;
+    background-color: #FFFFFF;
+}
+
+.footer h4 {
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #0E0E0E;
+}
+
+.line {
+    width: 1120;
+    margin: 32px 80px;
+    border: 1px solid #0E0E0E10;
+}
+
+footer ul>li {
+    list-style: none;
+    display: inline;
+    padding: 12px;
 }
