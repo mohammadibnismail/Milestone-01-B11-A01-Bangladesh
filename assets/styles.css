@@ -3,29 +3,11 @@
     padding: 0px;
 }
 
-.fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
+body {
+    font-family: "Fira Sans", "serif";
 }
 
-/* Shared Styles -Start*/
-section h2 {
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    color: rgb(14, 14, 14);
-    margin-bottom: 32px;
-}
-
-/* Shared Styles -End*/
-main {
-    max-width: 1600;
-    width: auto;
-    padding: 0px 160px 80px;
-    background: rgb(245, 245, 245);
-}
-
+/* Header Section Style */
 header {
     max-width: 1600;
     width: auto;
@@ -33,6 +15,7 @@ header {
     background: rgb(245, 245, 245);
 }
 
+/* Nav Bar Section Style */
 nav {
     display: flex;
     align-items: center;
@@ -43,14 +26,14 @@ nav {
 
 .nav-title {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
+
     font-size: 32px;
     font-weight: 700;
 
 }
 
 .nav-button {
-    font-family: Fira Sans;
+
     font-size: 18px;
     font-weight: 600;
     color: rgb(0, 106, 80);
@@ -59,6 +42,26 @@ nav {
     padding: 15px 30px 15px 30px;
 }
 
+/* Main Section Style */
+/* Shared Styles -Start*/
+main {
+    max-width: 1600;
+    width: auto;
+    padding: 0px 160px 80px;
+    background: rgb(245, 245, 245);
+}
+
+section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+    margin-bottom: 32px;
+}
+
+/* Shared Styles -End*/
+
+
+/* Banner Section Styles */
 .banner {
     display: flex;
     align-items: center;
@@ -71,7 +74,7 @@ nav {
 }
 
 .banner-label {
-    font-family: Fira Sans;
+
     font-size: 24px;
     font-weight: 500;
     color: #0e0e0e50;
@@ -79,7 +82,7 @@ nav {
 }
 
 .banner-description {
-    font-family: Fira Sans;
+
     font-size: 56px;
     font-weight: 700;
     color: #0e0e0e;
@@ -87,7 +90,7 @@ nav {
 }
 
 .banner-nav-button {
-    font-family: Fira Sans;
+
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
@@ -102,17 +105,11 @@ nav {
     height: 400px;
 }
 
+
+/* Pillars BD Section Styles */
 .pillars-bd {
     margin-bottom: 80px;
 }
-
-/* .pillars-bd-title {
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    color: rgb(14, 14, 14 0.8);
-    margin-bottom: 32px;
-} */
 
 .pillars-bd-content {
     display: flex;
@@ -129,7 +126,7 @@ nav {
 }
 
 .pillars-bd-content h4 {
-    font-family: Fira Sans;
+
     font-size: 20px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
@@ -137,15 +134,20 @@ nav {
 }
 
 .pillars-bd-content p {
-    font-family: Fira Sans;
+
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.8);
 }
 
 
+/* Future Vision Section Styles*/
+.future-vision {
+    margin-bottom: 80px;
+}
+
 .future-vision-description {
-    font-family: Fira Sans;
+
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.8);
@@ -166,7 +168,7 @@ nav {
 }
 
 .future-vision-list-item h4 {
-    font-family: Fira Sans;
+
     font-size: 20px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
@@ -174,7 +176,7 @@ nav {
 }
 
 .future-vision-list-item p {
-    font-family: Fira Sans;
+
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.8);
@@ -193,7 +195,7 @@ nav {
 }
 
 .learn-more-btn {
-    font-family: Fira Sans;
+
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
@@ -206,16 +208,30 @@ nav {
 }
 
 .quote {
+
+    font-size: 16px;
+    font-weight: 400;
     margin-top: 32px;
     padding: 48px 24px;
     border-radius: 16px;
     background-color: #FFFFFF;
     background-image: url(./images/quote-bg.png);
     background-repeat: no-repeat;
-    background-position: 24px 0 24px 0px 0px;
+    background-position-x: 24px;
+    background-position-y: 24px;
 }
 
-/* Recent News Styles*/
+/* Your Opinion Section Styles */
+.opinion {
+    margin-bottom: 80px;
+}
+
+
+/* Recent News Section Styles*/
+.recent-news {
+    margin-bottom: 80px;
+}
+
 .recent-news-card-container {
     display: flex;
     justify-content: space-between;
@@ -228,7 +244,7 @@ nav {
 }
 
 .news-title {
-    font-family: Fira Sans;
+
     font-size: 32px;
     font-weight: 700;
     color: rgb(14, 14, 14);
@@ -240,7 +256,7 @@ nav {
 }
 
 .recent-news-card-container p {
-    font-family: Fira Sans;
+
     font-size: 16px;
     font-weight: 400;
     color: rgb(14, 14, 14 0.7);
@@ -248,7 +264,7 @@ nav {
 }
 
 .read-more-btn {
-    font-family: Fira Sans;
+
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF;
@@ -260,8 +276,63 @@ nav {
     margin: 24px 0px;
 }
 
-/* Donate section Styles */
 
+/* Donate section Styles */
+.donate {
+    margin-bottom: 80px;
+}
+
+.donate-container {
+    text-align: center;
+}
+
+.donate-container p {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.donate-box-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.donate-box {
+
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e80;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF80;
+    margin-bottom: 16px;
+
+}
+
+.donate-amount {
+
+    font-size: 20px;
+    font-weight: 400;
+    color: #0e0e0e30;
+    padding: 20px 400px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border: 0px;
+    background-size: 1300px;
+
+}
+
+.donate-button {
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 11px 20px;
+    margin: 24px 0px;
+}
 
 
 /* Subscribe Section Styles*/
@@ -277,11 +348,11 @@ nav {
 }
 
 .subscribe p {
-        margin: 16px;
+    margin: 24px;
 }
 
 .subscribe-form input {
-    font-family: Fira Sans;
+
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.3);
@@ -294,7 +365,7 @@ nav {
 }
 
 .subscribe-form button {
-    font-family: Fira Sans;
+
     font-size: 18px;
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -317,7 +388,7 @@ nav {
 }
 
 .footer h4 {
-    font-family: Fira Sans;
+
     font-size: 32px;
     font-weight: 700;
     text-align: center;
